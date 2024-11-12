@@ -4,6 +4,7 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+
     }
 
     .logo {
@@ -16,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 16px 10%;      
+        padding: 16px 25%;      
         background-color: #1f2937;
     }
 
@@ -38,13 +39,31 @@
         display: flex;
         flex-direction: row;      
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         background-color: #1f2937;
+        gap: 50px;
+        flex-basis: 600px;
+        padding: 16px 25%;      
     }
+
+    .container-1 img {
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;   
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+
+    }
+
 
     .container-1-text {
         display: flex;
         flex-direction: column;   
+        flex-basis: 500px;
+        gap: 10px;
     }
 
     .container-1-text .title {
